@@ -67,8 +67,116 @@ const menuData = [
 
         ]
     },
-   
-   
+   {
+        id: 'S7',
+        name: 'اصدار رخصة بلدي',
+        description: 'اصدار رخصة بلدي',
+        image: 'imgs/Services/7.png',
+        sizes: [
+            { label: '',       short: '',  price: 'على حسب' },
+
+        ]
+    },
+   {
+        id: 'S8',
+        name: 'اصدار سجل تجاري',
+        description: 'اصدار سجل تجاري',
+        image: 'imgs/Services/8.png',
+        sizes: [
+            { label: '',       short: '',  price: 'على حسب' },
+
+        ]
+    },
+    {
+        id: 'S9',
+        name: 'نقل كفالة',
+        description: 'نقل كفالة',
+        image: 'imgs/Services/9.png',
+        sizes: [
+            { label: '',       short: '',  price: 'على حسب' },
+
+        ]
+    },
+    {
+        id: 'S10',
+        name: 'تخليص أوراق جمركية',
+        description: 'تخليص أوراق جمركية',
+        image: 'imgs/Services/10.png',
+        sizes: [
+            { label: '',       short: '',  price: 'على حسب' },
+
+        ]
+    },
+    {
+        id: 'S11',
+        name: 'تحويل زيارات الإقامة',
+        description: 'تحويل زيارات الإقامة',
+        image: 'imgs/Services/11.png',
+        sizes: [
+            { label: '',       short: '',  price: 'على حسب' },
+
+        ]
+    },
+    {
+        id: 'S12',
+        name: 'إصدار التأشيرات',
+        description: 'إصدار التأشيرات',
+        image: 'imgs/Services/12.png',
+        sizes: [
+            { label: '',       short: '',  price: 'على حسب' },
+
+        ]
+    },
+    {
+        id: 'S13',
+        name: 'إلغاء بلاغ الهروب',
+        description: 'إلغاء بلاغ الهروب',
+        image: 'imgs/Services/13.png',
+        sizes: [
+            { label: '',       short: '',  price: 'على حسب' },
+
+        ]
+    },
+    {
+        id: 'S14',
+        name: 'تخليص موافقة زواج سعودي من أجنبية',
+        description: 'تخليص موافقة زواج سعودي من أجنبية',
+        image: 'imgs/Services/14.png',
+        sizes: [
+            { label: '',       short: '',  price: 'على حسب' },
+
+        ]
+    },
+    {
+        id: 'S15',
+        name: 'إصدار الإقامات',
+        description: 'إصدار الإقامات',
+        image: 'imgs/Services/15.png',
+        sizes: [
+            { label: '',       short: '',  price: 'على حسب' },
+
+        ]
+    },
+    {
+        id: 'S16',
+        name: 'نقل بيانات جواز',
+        description: 'نقل بيانات جواز',
+        image: 'imgs/Services/16.png',
+        sizes: [
+            { label: '',       short: '',  price: 'على حسب' },
+
+        ]
+    },
+    {
+        id: 'S17',
+        name: 'اصدار وكالة',
+        description: 'اصدار وكالة',
+        image: 'imgs/Services/18.png',
+        sizes: [
+            { label: '',       short: '',  price: 'على حسب' },
+
+        ]
+    },
    
 ];
 
