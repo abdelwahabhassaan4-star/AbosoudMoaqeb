@@ -171,7 +171,7 @@ const menuData = [
         id: 'S17',
         name: 'اصدار وكالة',
         description: 'اصدار وكالة',
-        image: 'imgs/Services/18.png',
+        image: 'imgs/Services/17.png',
         sizes: [
             { label: '',       short: '',  price: 'على حسب' },
 
