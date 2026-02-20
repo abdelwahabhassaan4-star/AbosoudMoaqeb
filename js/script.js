@@ -177,7 +177,16 @@ const menuData = [
 
         ]
     },
-   
+   {
+        id: 'S18',
+        name: 'كروت العمل',
+        description: 'كروت العمل',
+        image: 'imgs/Services/18.png',
+        sizes: [
+            { label: '',       short: '',  price: 'على حسب' },
+
+        ]
+    },
 ];
 
 // ========== Initialize AOS ==========
