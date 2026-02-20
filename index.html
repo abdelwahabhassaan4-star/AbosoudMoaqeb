@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتب أبو سعود للخدمات العامة</title>
+    
+    <!-- Bootstrap RTL CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts - Cairo for Arabic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Amiri:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/966593271941" class="whatsapp-float" target="_blank" aria-label="تواصل عبر واتساب">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand logo-brand" href="#home">
+                <img src="imgs/Services/Logo.png">
+                <span class="brand-text">مكتب أبو سعود للخدمات والتعقيب</span>                  </a>
+            
+            <!-- Social Icons - للموبايل فقط -->
+            <div class="navbar-social-icons">
+                <a href="https://wa.me/966593271941" target="_blank" aria-label="واتساب">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="#" target="_blank" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a>
+                
+                <a href="#" target="_blank" aria-label="إنستغرام">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" target="_blank" aria-label="فيسبوك">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">الرئيسية</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">قائمة الخدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">عن المكتب</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#offers">العروض</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">التواصل</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Slider -->
+    <section id="home" class="hero-section">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+            
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="hero-overlay"></div>
+                    <img src="imgs/Sliders/Slider_1.png" class="d-block w-100" alt="كنافة لذيذة">
+                    <div class="carousel-caption">
+                        <h1 class="display-2 fw-bold"style="color: white;"  data-aos="fade-down">مرحباً بكم في مكتب أبو سعود للخدمات والتعقيب</h1>
+                        <p class="lead mb-4" data-aos="fade-up" data-aos-delay="200">نوفر لكم كل ما يخص الخدمات العامة</p>
+                        <div data-aos="fade-up" data-aos-delay="400">
+                            <a href="#menu" class="btn btn-primary btn-lg me-3">استكشف معنا كل الخدمات</a>
+                            <a href="https://wa.me/966593271941" class="btn btn-outline-light btn-lg">اطلب الآن</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="hero-overlay"></div>
+                    <img src="imgs/Sliders/Slider_2.png" class="d-block w-100" alt="برجر و مطبق">
+                    <div class="carousel-caption">
+                        <h1 class="display-2 fw-bold"style="color: white;"  data-aos="fade-down">معقب الخدمات العامة</h1>
+                        <p class="lead mb-4" data-aos="fade-up" data-aos-delay="200">الأفضل معنا</p>
+                        <div data-aos="fade-up" data-aos-delay="400">
+                            <a href="#menu" class="btn btn-primary btn-lg me-3">استكشف معنا كل الخدمات</a>
+                            <a href="https://wa.me/966593271941" class="btn btn-outline-light btn-lg">اطلب الآن</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 -->
+                 <div class="carousel-item">
+                    <div class="hero-overlay"></div>
+                    <img src="imgs/Sliders/Slider_3.png" class="d-block w-100" alt="برجر و مطبق">
+                    <div class="carousel-caption">
+                        <h1 class="display-2 fw-bold"style="color: white;"  data-aos="fade-down"></h1>
+                        <p class="lead mb-4" data-aos="fade-up" data-aos-delay="200"></p>
+                        <div data-aos="fade-up" data-aos-delay="400">
+                            <a href="#menu" class="btn btn-primary btn-lg me-3"></a>
+                            <a href="https://wa.me/966593271941" class="btn btn-outline-light btn-lg">اطلب الآن</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold">اكـتـشـف قـائـمـة الـخـدمـات لــديــنــا</h2>
+            </div>
+            
+            <!-- Search Box - مش sticky -->
+            <div class="row justify-content-center mb-4" data-aos="fade-up">
+                <div class="col-lg-6">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="menuSearch" class="form-control" placeholder="ابحث عن الخدمة التي تريدها...">
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- Filter Buttons - Sticky فقط -->
+        <!-- <div class="menu-filter-section" data-aos="fade-up">
+            <div class="container">
+                <div class="filter-buttons text-center">
+                    <button class="filter-btn active" data-filter="all">
+                        <i class="fas fa-th-large"></i> جميع الفئات
+                    </button>
+                    <button class="filter-btn" data-filter="Kunafa_dessert">
+                        <i class="fas fa-bread-slice"></i> حلوي الكنافة
+                    </button>
+                    <button class="filter-btn" data-filter="Brgar_Meals">
+                        <i class="fas fa-box"></i> وجبات البرجر
+                    </button>
+                    <button class="filter-btn" data-filter="Almtabaq">
+                        <i class="fas fa-utensils"></i> المطبق
+                    </button>
+                    <button class="filter-btn" data-filter="KunafaCup">
+                        <i class="fas fa-french-fries"></i> كـوب كـنـافـة
+                    </button>
+                    <button class="filter-btn" data-filter="Alzura">
+                        <i class="fas fa-hamburger"></i> ذرة
+                    </button>
+                    
+                    <button class="filter-btn" data-filter="drinks">
+                        <i class="fas fa-glass-water"></i> المشروبات
+                    </button>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="container">
+            <!-- Menu Items Grid -->
+            <div class="menu-grid" id="menuGrid">
+                <!-- Menu items will be loaded by JavaScript -->
+            </div>
+
+            <!-- No Results Message -->
+            <div id="noResults" class="text-center py-5" style="display: none;">
+                <i class="fas fa-search fa-3x text-muted mb-3"></i>
+                <h4 class="text-muted">لا توجد نتائج</h4>
+                <p class="text-muted">جرب البحث بكلمات أخرى</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <!-- <section id="offers" class="offers-section py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold">عروضنا المميزة</h2>
+                <p class="lead text-muted">لا تفوت فرصة الحصول على أفضل العروض</p>
+            </div>
+
+            <div class="row g-4">
+                
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+                    <div class="offer-card">
+                        <div class="offer-badge">
+                            <span>خصم 20%</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=500&h=400&fit=crop " alt="عرض الوجبة العائلية" class="img-fluid">
+                        <div class="offer-content">
+                            <h4>وجبة العائلة</h4>
+                            <p>4 سندوتشات شاورما + بطاطس كبير + 4 مشروبات</p>
+                            <div class="offer-price">
+                                <span class="old-price">100 ريال</span>
+                                <span class="new-price">80 ريال</span>
+                            </div>
+                            <a href="https://wa.me/966593271941" class="btn btn-primary w-100 mt-3">
+                                <i class=""></i>اطلب الآن
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="offer-card">
+                        <div class="offer-badge bg-success">
+                            <span>عرض خاص</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=500&h=350&fit=crop" alt="عرض البرجر المزدوج" class="img-fluid">
+                        <div class="offer-content">
+                            <h4>وجبة البرجر المزدوج</h4>
+                            <p>2 برجر دبل + بطاطس كبير + 2 مشروبات</p>
+                            <div class="offer-price">
+                                <span class="old-price">65 ريال</span>
+                                <span class="new-price">55 ريال</span>
+                            </div>
+                            <a href="https://wa.me/966593271941" class="btn btn-primary w-100 mt-3">
+                                <i class=""></i>اطلب الآن
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="offer-card">
+                        <div class="offer-badge bg-warning">
+                            <span>الأكثر طلباً</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&h=350&fit=crop" class="img-fluid" alt="عرض الــكــنــافــةالصاروخ">
+                        <div class="offer-content">
+                            <h4>وجبة الأصدقاء</h4>
+                            <p>3 صاروخ شاورما + بطاطس وسط + 3 مشروبات</p>
+                            <div class="offer-price">
+                                <span class="old-price">60 ريال</span>
+                                <span class="new-price">50 ريال</span>
+                            </div>
+                            <a href="https://wa.me/966593271941" class="btn btn-primary w-100 mt-3">
+                                <i class=""></i>اطلب الآن
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">تواصل معنا</span>
+                <h2 class="display-4 fw-bold">نسعد بخدمتكم</h2>
+            </div>
+
+            <div class="contact-pills-wrapper" data-aos="fade-up">
+
+                <a href="tel:0593271941" class="contact-pill">
+                    <div class="contact-pill-text">
+                        <span class="cp-title">اتصل بنا</span>
+                        <span class="cp-value">0593271941</span>
+                    </div>
+                    <div class="contact-pill-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                </a>
+
+
+                <a href="https://wa.me/966593271941" class="contact-pill" target="_blank">
+                    <div class="contact-pill-text">
+                        <span class="cp-title">واتساب</span>
+                        <span class="cp-value">تواصل معنا</span>
+                    </div>
+                    <div class="contact-pill-icon whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                </a>
+
+                <div class="contact-pill no-hover">
+                    <div class="contact-pill-text">
+                        <span class="cp-title">مواعيد العمل</span>
+                        <span class="cp-value">يومياً &nbsp;|&nbsp; 04:00 م – 04:00 ص</span>
+                    </div>
+                    <div class="contact-pill-icon clock">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-5" data-aos="fade-up">
+                <p class="lead mb-3">متاحين طوال فترة مواعيد العمل أو اترك لنا رساله أي وقت, تواصل معنا</p>
+                <div class="d-flex justify-content-center gap-3 flex-wrap">
+                    <a href="https://wa.me/966593271941" class="btn btn-success btn-lg" target="_blank">
+                        <i class="fab fa-whatsapp me-2"></i>اطلب عبر واتساب
+                    </a>
+                    <a href="tel:0593271941" class="btn btn-call btn-lg">
+                        <i class="fas fa-phone-alt me-2"></i>اتصل بنا
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <img src="imgs/Sliders/Slider_4.jpg" alt="عن المكتب" class="img-fluid rounded-4 shadow-lg">
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="section-title mb-4">
+                        <span class="subtitle">من نحن</span>
+                        <h2 class="display-4 fw-bold">مرحباً بكم في مكتب أبو سعود للخدمات والتعقيب</h2>
+                    </div>
+                    <p class="lead mb-4">نحن مكتب خدمات عامة في السعودية من الركائز الأساسية التي تسهل المعاملات الإدارية واللوجستية للأفراد والشركات، حيث تعمل كحلقة وصل احترافية مع الجهات الحكومية والخاصة</p>
+                    <div class="about-features">
+                        <div class="about-feature-item mb-3">
+                            <i class="fas fa-check-circle text-primary me-2"></i>
+                            <span>المنصات الإلكترونية: تحديث وإدارة حسابات (أبشر، قوى، مدد، منصة بلدي، ناجز).</span>
+                        </div>
+                        <div class="about-feature-item mb-3">
+                            <i class="fas fa-check-circle text-primary me-2"></i>
+                            <span>وزارة التجارة: إصدار وتجديد السجلات التجارية، وتوثيق العقود.</span>
+                        </div>
+                        <div class="about-feature-item mb-3">
+                            <i class="fas fa-check-circle text-primary me-2"></i>
+                            <span>وزارة الموارد البشرية: فتح ملفات المنشآت، نقل الكفالة، وإصدار رخص العمل.</span>
+                        </div>
+                        <div class="about-feature-item mb-3">
+                            <i class="fas fa-check-circle text-primary me-2"></i>
+                            <span>الجوازات: إصدار وتجديد الإقامات، وتمديد تأشيرات الزيارة. </span>
+                        </div>
+                    </div>
+                    <div class="working-hours mt-4 p-4 bg-light rounded-3">
+                        <h5 class="mb-3"><i class="far fa-clock me-2"></i>مواعيد العمل</h5>
+                        <p class="mb-0 fw-bold text-primary">يومياً: من 04:00 عصراً إلى 04:00 صباحاً</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand mb-3">
+                        <i class="fas fa-utensils"></i>
+                        <span>مكتب أبو سعود للخدمات والتعقيب</span>
+                    </div>
+                    <p class="text-muted, color='white'">"نحن مكتب [أبو سعود]، وجهتكم الموثوقة لإنجاز كافة المعاملات الحكومية والإلكترونية في المملكة. نهدف إلى توفير وقتكم وجهدكم عبر تقديم حلول إدارية متكاملة وسريعة. بخبرة واسعة في الأنظمة السعودية الحديثة، نضمن لكم الدقة والاحترافية في متابعة معاملاتكم لدى مختلف الوزارات والمنصات الرقمية." </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h5 class="mb-3">روابط سريعة</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#menu">قائمة الخدمات</a></li>
+                        <li><a href="#about">عن المكتب</a></li>
+                        
+                        <!-- <li><a href="#offers">العروض</a></li> -->
+                        <li><a href="#contact">التواصل</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4">
+                    <h5 class="mb-3">تابعنا</h5>
+                    <div class="social-links">
+                        <a href="#" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/966593271941" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="text-center">
+                <p class="mb-0 text-muted">© 2026  مكتب أبو سعود للخدمات والتعقيب. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
